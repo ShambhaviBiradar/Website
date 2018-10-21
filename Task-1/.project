@@ -75,6 +75,11 @@
 			<location>C:/Users/HP_WORLD/Desktop/Internship/images/STL.jpg</location>
 		</link>
 		<link>
+			<name>WebContent/before-after.jpg</name>
+			<type>1</type>
+			<locationURI>PARENT-3-PROJECT_LOC/Desktop/Internship/images/before-after.jpg</locationURI>
+		</link>
+		<link>
 			<name>WebContent/butterfly.jpg</name>
 			<type>1</type>
 			<location>C:/Users/HP_WORLD/Desktop/Internship/images/butterfly.jpg</location>
@@ -132,12 +137,17 @@
 		<link>
 			<name>WebContent/nature.jpeg</name>
 			<type>1</type>
-			<location>C:/Users/HP_WORLD/Desktop/Internship/images/nature.jpeg</location>
+			<locationURI>PARENT-3-PROJECT_LOC/Desktop/Internship/images/nature.jpeg</locationURI>
 		</link>
 		<link>
 			<name>WebContent/outdoor.jpg</name>
 			<type>1</type>
 			<location>C:/Users/HP_WORLD/Desktop/Internship/images/outdoor.jpg</location>
+		</link>
+		<link>
+			<name>WebContent/palm1.jpg</name>
+			<type>1</type>
+			<locationURI>PARENT-3-PROJECT_LOC/Desktop/Internship/images/palm1.jpg</locationURI>
 		</link>
 		<link>
 			<name>WebContent/party.jpg</name>
@@ -195,9 +205,29 @@
 			<location>C:/Users/HP_WORLD/Desktop/Internship/images/puppies.jpg</location>
 		</link>
 		<link>
+			<name>WebContent/roseGirl.jpg</name>
+			<type>1</type>
+			<locationURI>PARENT-3-PROJECT_LOC/Desktop/Internship/images/roseGirl.jpg</locationURI>
+		</link>
+		<link>
+			<name>WebContent/roseGirl2.jpg</name>
+			<type>1</type>
+			<locationURI>PARENT-3-PROJECT_LOC/Desktop/Internship/images/roseGirl2.jpg</locationURI>
+		</link>
+		<link>
+			<name>WebContent/sitting.jpg</name>
+			<type>1</type>
+			<locationURI>PARENT-3-PROJECT_LOC/Desktop/Internship/images/sitting.jpg</locationURI>
+		</link>
+		<link>
 			<name>WebContent/tiger.jpg</name>
 			<type>1</type>
 			<location>C:/Users/HP_WORLD/Desktop/Internship/images/tiger.jpg</location>
+		</link>
+		<link>
+			<name>WebContent/tokyo.jpg</name>
+			<type>1</type>
+			<locationURI>PARENT-3-PROJECT_LOC/Desktop/Internship/images/tokyo.jpg</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>

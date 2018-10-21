@@ -2,6 +2,12 @@
 <jsp:useBean id="u" class="com.wix.bean.User"></jsp:useBean>
 <jsp:setProperty property="*" name="u"/>
 
+Record:<br>  
+<jsp:getProperty property="name" name="u"/><br>  
+<jsp:getProperty property="password" name="u"/><br>  
+<jsp:getProperty property="email" name="u" /><br>  
+<jsp:getProperty property="mobileno" name="u"/><br>  
+<jsp:getProperty property="address" name="u" /><br>  
 
 
 <!DOCTYPE html>

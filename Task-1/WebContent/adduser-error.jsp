@@ -1,3 +1,6 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,12 +12,17 @@
 
 <body style="background-image: url('pic28.jpg'); text-align:center;>
 
-
- 
-
+<br>
+<br>
+<br>
+<br>
 
 <p>Sorry, an error occured!</p>
-<jsp:include page="userform.html"></jsp:include>
 
+
+
+<jsp:include page="userform.html"></jsp:include>
 </body>
+
+
 </html>

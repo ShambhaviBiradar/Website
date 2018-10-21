@@ -17,10 +17,12 @@ public static int save(User u){
 	int status=0;
 	try{
 		Connection con=getConnection();
-		PreparedStatement ps=con.prepareStatement("insert into register1(name,password,email) values(?,?,?)");
+		PreparedStatement ps=con.prepareStatement("insert into register1(name,password,email,mobileno,address) values(?,?,?,?,?)");
 		ps.setString(1,u.getName());
 		ps.setString(2,u.getPassword());
 		ps.setString(3,u.getEmail());
+		ps.setInt(4,u.getMobileno());
+		ps.setString(5,u.getAddress());
 		
 		status=ps.executeUpdate();
 	}catch(Exception e){System.out.println(e);}
@@ -30,10 +32,13 @@ public static int update(User u){
 	int status=0;
 	try{
 		Connection con=getConnection();
-		PreparedStatement ps=con.prepareStatement("update register1 set name=?,password=?,email=? where id=?");
+		PreparedStatement ps=con.prepareStatement("update register1 set name=?,password=?,email=?,mobileno=?,address=? where id=?");
 		ps.setString(1,u.getName());
 		ps.setString(2,u.getPassword());
 		ps.setString(3,u.getEmail());
+		ps.setInt(4,u.getMobileno());
+		ps.setString(5,u.getAddress());
+		
 		
 		ps.setInt(6,u.getId());
 		status=ps.executeUpdate();
@@ -64,6 +69,8 @@ public static List<User> getAllRecords(){
 			u.setName(rs.getString("name"));
 			u.setPassword(rs.getString("password"));
 			u.setEmail(rs.getString("email"));
+			u.setMobileno(rs.getInt("mobileno"));
+			u.setAddress(rs.getString("address"));
 			
 			list.add(u);
 		}
@@ -83,6 +90,8 @@ public static User getRecordById(int id){
 			u.setName(rs.getString("name"));
 			u.setPassword(rs.getString("password"));
 			u.setEmail(rs.getString("email"));
+			u.setMobileno(rs.getInt("mobileno"));
+			u.setAddress(rs.getString("address"));
 			
 		}
 	}catch(Exception e){System.out.println(e);}

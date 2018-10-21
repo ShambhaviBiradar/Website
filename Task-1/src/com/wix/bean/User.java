@@ -2,8 +2,10 @@ package com.wix.bean;
 
 public class User {
 private int id;
-private String name,password,email;
+private String name,password,email,address;
+int mobileno;
 public int getId() {
+
 	return id;
 }
 public void setId(int id) {
@@ -27,6 +29,25 @@ public String getEmail() {
 public void setEmail(String email) {
 	this.email = email;
 }
+
+public String getAddress() {
+	return address;
+}
+public void setAddress(String address) {
+	this.address = address;
+}
+public int getMobileno() {
+	
+	return 0;
+}
+public void setMobileno(int int1) {
+	
+	
+}
+
+
+
+
 }
 
 
